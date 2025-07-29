@@ -1,56 +1,6 @@
 import Link from 'next/link';
 import { BlogPost } from '@/types/blog';
-
-const blogPosts: BlogPost[] = [
-  {
-    id: 'getting-started-with-nextjs',
-    title: 'Getting Started with Next.js 15',
-    excerpt:
-      'Learn how to build modern web applications with Next.js 15, featuring the new App Router and improved performance.',
-    content:
-      'Next.js 15 brings exciting new features including improved performance, better developer experience, and enhanced routing capabilities...',
-    date: '2024-01-15',
-    author: 'John Doe',
-    tags: ['Next.js', 'React', 'Web Development'],
-    featured: true,
-  },
-  {
-    id: 'mastering-typescript',
-    title: 'Mastering TypeScript for Modern Development',
-    excerpt:
-      'Discover advanced TypeScript patterns and best practices for building robust applications.',
-    content:
-      'TypeScript has become the standard for modern JavaScript development, offering type safety and better developer experience...',
-    date: '2024-01-10',
-    author: 'Jane Smith',
-    tags: ['TypeScript', 'JavaScript', 'Programming'],
-    featured: false,
-  },
-  {
-    id: 'tailwind-css-tips',
-    title: 'Essential Tailwind CSS Tips and Tricks',
-    excerpt:
-      'Unlock the full potential of Tailwind CSS with these essential tips and advanced techniques.',
-    content:
-      'Tailwind CSS has revolutionized how we approach styling in modern web development...',
-    date: '2024-01-05',
-    author: 'Mike Johnson',
-    tags: ['CSS', 'Tailwind', 'Design'],
-    featured: false,
-  },
-  {
-    id: 'react-performance',
-    title: 'Optimizing React Performance',
-    excerpt:
-      'Learn the best practices for optimizing React applications and improving user experience.',
-    content:
-      "Performance is crucial for modern web applications. In this guide, we'll explore various techniques...",
-    date: '2024-01-01',
-    author: 'Sarah Wilson',
-    tags: ['React', 'Performance', 'Optimization'],
-    featured: false,
-  },
-];
+import { blogPosts } from '@/data/blogPosts';
 
 export default function Home() {
   const featuredPost = blogPosts.find((post) => post.featured);
@@ -62,22 +12,24 @@ export default function Home() {
       <section className='bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='text-center'>
-            <h1 className='text-4xl md:text-6xl font-bold mb-6'>ETE Blog</h1>
+            <h1 className='text-4xl md:text-6xl font-bold mb-6'>
+              Elizabeth's Wedding Blog
+            </h1>
             <p className='text-xl md:text-2xl mb-8 text-blue-100'>
-              Exploring Technology, Engineering, and Everything in Between
+              Wedding Planning Tips, Inspiration & Vendor Recommendations
             </p>
             <div className='flex flex-wrap justify-center gap-4'>
               <span className='bg-white/20 px-4 py-2 rounded-full text-sm'>
-                Web Development
+                Wedding Planning
               </span>
               <span className='bg-white/20 px-4 py-2 rounded-full text-sm'>
-                React
+                Vendor Reviews
               </span>
               <span className='bg-white/20 px-4 py-2 rounded-full text-sm'>
-                Next.js
+                Decor Inspiration
               </span>
               <span className='bg-white/20 px-4 py-2 rounded-full text-sm'>
-                TypeScript
+                Bridal Fashion
               </span>
             </div>
           </div>
@@ -89,7 +41,7 @@ export default function Home() {
         <section className='py-16'>
           <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
             <h2 className='text-2xl font-bold text-gray-900 mb-8'>
-              Featured Post
+              Featured Wedding Tip
             </h2>
             <div className='bg-white rounded-lg shadow-lg overflow-hidden'>
               <div className='md:flex'>
@@ -143,7 +95,7 @@ export default function Home() {
       <section className='py-16'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
           <h2 className='text-2xl font-bold text-gray-900 mb-8'>
-            Recent Posts
+            Recent Wedding Tips
           </h2>
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {regularPosts.map((post) => (
@@ -199,7 +151,8 @@ export default function Home() {
         <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
           <h2 className='text-3xl font-bold mb-4'>Stay Updated</h2>
           <p className='text-gray-300 mb-8'>
-            Get the latest posts and insights delivered to your inbox.
+            Get the latest wedding planning tips and inspiration delivered to
+            your inbox.
           </p>
           <div className='flex flex-col sm:flex-row gap-4 max-w-md mx-auto'>
             <input

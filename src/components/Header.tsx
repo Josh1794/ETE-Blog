@@ -7,10 +7,12 @@ export default function Header() {
         <div className='flex justify-between items-center h-16'>
           {/* Logo */}
           <Link href='/' className='flex items-center space-x-2'>
-            <div className='w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center'>
+            <div className='w-8 h-8 bg-gradient-to-r from-pink-400 to-rose-500 rounded-lg flex items-center justify-center'>
               <span className='text-white font-bold text-sm'>E</span>
             </div>
-            <span className='text-xl font-bold text-gray-900'>ETE Blog</span>
+            <span className='text-xl font-bold text-gray-900'>
+              Elizabeth's Wedding Blog
+            </span>
           </Link>
 
           {/* Navigation */}
@@ -25,7 +27,7 @@ export default function Header() {
               href='/blog'
               className='text-gray-700 hover:text-blue-600 transition-colors'
             >
-              Blog
+              Planning Tips
             </Link>
             <Link
               href='/about'

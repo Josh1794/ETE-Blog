@@ -8,15 +8,16 @@ export default function Footer() {
           {/* Brand */}
           <div className='md:col-span-2'>
             <div className='flex items-center space-x-2 mb-4'>
-              <div className='w-8 h-8 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center'>
+              <div className='w-8 h-8 bg-gradient-to-r from-pink-400 to-rose-500 rounded-lg flex items-center justify-center'>
                 <span className='text-white font-bold text-sm'>E</span>
               </div>
-              <span className='text-xl font-bold'>ETE Blog</span>
+              <span className='text-xl font-bold'>
+                Elizabeth&apos;s Wedding Blog
+              </span>
             </div>
             <p className='text-gray-400 mb-6 max-w-md'>
-              Exploring Technology, Engineering, and Everything in Between.
-              Sharing insights, tutorials, and thoughts on modern web
-              development.
+              Sharing wedding planning tips, vendor recommendations, and
+              inspiration for your special day.
             </p>
             <div className='flex space-x-4'>
               <a
@@ -87,7 +88,7 @@ export default function Footer() {
                   href='/blog'
                   className='text-gray-400 hover:text-white transition-colors'
                 >
-                  Blog
+                  Planning Tips
                 </Link>
               </li>
               <li>
@@ -108,49 +109,12 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
-          {/* Categories */}
-          <div>
-            <h3 className='text-lg font-semibold mb-4'>Categories</h3>
-            <ul className='space-y-2'>
-              <li>
-                <Link
-                  href='/blog?category=nextjs'
-                  className='text-gray-400 hover:text-white transition-colors'
-                >
-                  Next.js
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/blog?category=react'
-                  className='text-gray-400 hover:text-white transition-colors'
-                >
-                  React
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/blog?category=typescript'
-                  className='text-gray-400 hover:text-white transition-colors'
-                >
-                  TypeScript
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href='/blog?category=web-development'
-                  className='text-gray-400 hover:text-white transition-colors'
-                >
-                  Web Development
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className='border-t border-gray-800 mt-8 pt-8 text-center'>
-          <p className='text-gray-400'>© 2024 ETE Blog. All rights reserved.</p>
+          <p className='text-gray-400'>
+            © 2024 Elizabeth&apos;s Wedding Blog. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

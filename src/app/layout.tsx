@@ -15,22 +15,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title:
-    'ETE Blog - Exploring Technology, Engineering, and Everything in Between',
+  title: "Elizabeth's Wedding Blog",
   description:
-    'A modern blog about web development, React, Next.js, TypeScript, and everything in between. Sharing insights, tutorials, and thoughts on modern technology.',
+    'A beautiful wedding blog sharing planning tips, vendor recommendations, and inspiration for your special day. From venues to vendors, decor to dresses.',
   keywords: [
-    'blog',
-    'web development',
-    'react',
-    'nextjs',
-    'typescript',
-    'technology',
+    'wedding',
+    'wedding planning',
+    'wedding inspiration',
+    'wedding vendors',
+    'wedding decor',
+    'bridal',
   ],
-  authors: [{ name: 'ETE Blog Team' }],
+  authors: [{ name: 'Elizabeth' }],
   openGraph: {
-    title: 'ETE Blog',
-    description: 'Exploring Technology, Engineering, and Everything in Between',
+    title: "Elizabeth's Wedding Blog",
+    description:
+      'Wedding planning tips, inspiration, and vendor recommendations',
     type: 'website',
   },
 };

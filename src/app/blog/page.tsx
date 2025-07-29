@@ -1,57 +1,6 @@
 import Link from 'next/link';
 import { BlogPost } from '@/types/blog';
-
-// This would typically come from a database or CMS
-const blogPosts: BlogPost[] = [
-  {
-    id: 'getting-started-with-nextjs',
-    title: 'Getting Started with Next.js 15',
-    excerpt:
-      'Learn how to build modern web applications with Next.js 15, featuring the new App Router and improved performance.',
-    content:
-      'Next.js 15 brings exciting new features including improved performance, better developer experience, and enhanced routing capabilities...',
-    date: '2024-01-15',
-    author: 'John Doe',
-    tags: ['Next.js', 'React', 'Web Development'],
-    featured: true,
-  },
-  {
-    id: 'mastering-typescript',
-    title: 'Mastering TypeScript for Modern Development',
-    excerpt:
-      'Discover advanced TypeScript patterns and best practices for building robust applications.',
-    content:
-      'TypeScript has become the standard for modern JavaScript development, offering type safety and better developer experience...',
-    date: '2024-01-10',
-    author: 'Jane Smith',
-    tags: ['TypeScript', 'JavaScript', 'Programming'],
-    featured: false,
-  },
-  {
-    id: 'tailwind-css-tips',
-    title: 'Essential Tailwind CSS Tips and Tricks',
-    excerpt:
-      'Unlock the full potential of Tailwind CSS with these essential tips and advanced techniques.',
-    content:
-      'Tailwind CSS has revolutionized how we approach styling in modern web development...',
-    date: '2024-01-05',
-    author: 'Mike Johnson',
-    tags: ['CSS', 'Tailwind', 'Design'],
-    featured: false,
-  },
-  {
-    id: 'react-performance',
-    title: 'Optimizing React Performance',
-    excerpt:
-      'Learn the best practices for optimizing React applications and improving user experience.',
-    content:
-      "Performance is crucial for modern web applications. In this guide, we'll explore various techniques...",
-    date: '2024-01-01',
-    author: 'Sarah Wilson',
-    tags: ['React', 'Performance', 'Optimization'],
-    featured: false,
-  },
-];
+import { blogPosts } from '@/data/blogPosts';
 
 const allTags = Array.from(new Set(blogPosts.flatMap((post) => post.tags)));
 
