@@ -2,13 +2,13 @@ export default function AboutPage() {
   return (
     <div className='min-h-screen bg-gray-50'>
       {/* Hero Section */}
-      <section className='bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20'>
+      <section className='bg-gradient-to-r from-pink-400 to-rose-500 text-white py-20'>
         <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
           <h1 className='text-4xl md:text-6xl font-bold mb-6'>
-            About ETE Blog
+            About The Blog
           </h1>
-          <p className='text-xl md:text-2xl text-blue-100'>
-            Exploring Technology, Engineering, and Everything in Between
+          <p className='text-xl md:text-2xl text-pink-100'>
+            Creating Beautiful, Stress-Free Wedding Experiences
           </p>
         </div>
       </section>
@@ -17,100 +17,101 @@ export default function AboutPage() {
       <section className='py-16'>
         <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='bg-white rounded-lg shadow-sm p-8 md:p-12'>
-            <h2 className='text-3xl font-bold text-gray-900 mb-8'>
-              Our Mission
-            </h2>
+            <h2 className='text-3xl font-bold text-gray-900 mb-8'>Our Story</h2>
             <div className='prose prose-lg max-w-none'>
               <p className='text-gray-700 leading-relaxed mb-6'>
-                ETE Blog is dedicated to sharing knowledge, insights, and
-                experiences in the ever-evolving world of technology. We believe
-                in the power of education and community-driven learning to push
-                the boundaries of what's possible in web development.
+                Elizabeth Treimanis Events is a wedding coordination firm
+                founded by Elizabeth Treimanis, a former executive assistant in
+                luxury fashion and beauty. Her industry experience enables her
+                to add a chic, bespoke touch to every event with flawless
+                attention to detail.
               </p>
               <p className='text-gray-700 leading-relaxed mb-6'>
-                Our team of passionate developers, designers, and technology
-                enthusiasts come together to create content that not only
-                teaches but inspires. We focus on modern technologies like
-                React, Next.js, TypeScript, and the latest web development
-                trends.
+                Our capable team is made up of wedding coordinators and
+                assistants from diverse professional backgrounds, from executive
+                assistants to startup vets to creative industry pros. We bring a
+                unique perspective to your wedding, drawing on expert knowledge
+                from the wedding industry and beyond.
               </p>
               <p className='text-gray-700 leading-relaxed'>
-                Whether you're a seasoned developer looking to stay current with
-                the latest trends, or a newcomer eager to learn the
-                fundamentals, our blog provides practical insights, tutorials,
-                and thought-provoking discussions to help you grow in your tech
-                journey.
+                From the time you book, we provide tools, guidance, and open
+                communication, ensuring a seamless handoff when we step in.
+                Whether you book us for partial planning, month-of or day-of
+                coordination, we&apos;re here for you with vendor
+                recommendations, expert advice, or for quick contract reviews.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Services Section */}
       <section className='py-16 bg-white'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
           <h2 className='text-3xl font-bold text-gray-900 text-center mb-12'>
-            Meet Our Team
+            Our Services
           </h2>
           <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-            {/* Team Member 1 */}
+            {/* Service 1 */}
             <div className='text-center'>
-              <div className='w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center'>
-                <span className='text-white text-3xl font-bold'>JD</span>
+              <div className='w-32 h-32 bg-gradient-to-br from-pink-400 to-rose-500 rounded-full mx-auto mb-6 flex items-center justify-center'>
+                <span className='text-white text-3xl font-bold'>FS</span>
               </div>
-              <h3 className='text-xl font-bold text-gray-900 mb-2'>John Doe</h3>
-              <p className='text-gray-600 mb-4'>Lead Developer & Founder</p>
+              <h3 className='text-xl font-bold text-gray-900 mb-2'>
+                Full Service Planning
+              </h3>
+              <p className='text-gray-600 mb-4'>
+                Complete Wedding Coordination
+              </p>
               <p className='text-sm text-gray-500'>
-                Full-stack developer with 8+ years of experience in React,
-                Node.js, and cloud technologies. Passionate about creating
-                scalable, user-friendly applications.
+                For couples who want a stress-free planning experience.
+                We&apos;ll guide you through every step, from venue selection
+                and vendor booking to design and logistics.
               </p>
             </div>
 
-            {/* Team Member 2 */}
+            {/* Service 2 */}
             <div className='text-center'>
-              <div className='w-32 h-32 bg-gradient-to-br from-green-500 to-blue-600 rounded-full mx-auto mb-6 flex items-center justify-center'>
-                <span className='text-white text-3xl font-bold'>JS</span>
+              <div className='w-32 h-32 bg-gradient-to-br from-pink-400 to-rose-500 rounded-full mx-auto mb-6 flex items-center justify-center'>
+                <span className='text-white text-3xl font-bold'>PP</span>
               </div>
               <h3 className='text-xl font-bold text-gray-900 mb-2'>
-                Jane Smith
+                Partial Planning
               </h3>
-              <p className='text-gray-600 mb-4'>TypeScript Expert</p>
+              <p className='text-gray-600 mb-4'>Guided Planning Support</p>
               <p className='text-sm text-gray-500'>
-                TypeScript enthusiast and software architect. Specializes in
-                building robust, type-safe applications and mentoring teams on
-                best practices.
+                Perfect for couples who have started planning but need expert
+                guidance and vendor connections to bring their vision to life.
               </p>
             </div>
 
-            {/* Team Member 3 */}
+            {/* Service 3 */}
             <div className='text-center'>
-              <div className='w-32 h-32 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full mx-auto mb-6 flex items-center justify-center'>
-                <span className='text-white text-3xl font-bold'>MJ</span>
+              <div className='w-32 h-32 bg-gradient-to-br from-pink-400 to-rose-500 rounded-full mx-auto mb-6 flex items-center justify-center'>
+                <span className='text-white text-3xl font-bold'>M</span>
               </div>
               <h3 className='text-xl font-bold text-gray-900 mb-2'>
-                Mike Johnson
+                Month-of Coordination
               </h3>
-              <p className='text-gray-600 mb-4'>UI/UX Designer</p>
+              <p className='text-gray-600 mb-4'>Final Month Support</p>
               <p className='text-sm text-gray-500'>
-                Creative designer focused on creating beautiful, accessible user
-                experiences. Expert in Tailwind CSS and modern design systems.
+                We step in during the final month to handle all the details,
+                vendor coordination, and ensure your wedding day runs smoothly.
               </p>
             </div>
 
-            {/* Team Member 4 */}
+            {/* Service 4 */}
             <div className='text-center'>
-              <div className='w-32 h-32 bg-gradient-to-br from-orange-500 to-red-600 rounded-full mx-auto mb-6 flex items-center justify-center'>
-                <span className='text-white text-3xl font-bold'>SW</span>
+              <div className='w-32 h-32 bg-gradient-to-br from-pink-400 to-rose-500 rounded-full mx-auto mb-6 flex items-center justify-center'>
+                <span className='text-white text-3xl font-bold'>D</span>
               </div>
               <h3 className='text-xl font-bold text-gray-900 mb-2'>
-                Sarah Wilson
+                Day-of Coordination
               </h3>
-              <p className='text-gray-600 mb-4'>Performance Engineer</p>
+              <p className='text-gray-600 mb-4'>Wedding Day Management</p>
               <p className='text-sm text-gray-500'>
-                Performance optimization specialist with deep knowledge of React
-                internals and web performance. Helps teams build faster, more
-                efficient applications.
+                We manage your wedding day from start to finish, handling all
+                logistics so you can focus on celebrating your special day.
               </p>
             </div>
           </div>
@@ -126,9 +127,9 @@ export default function AboutPage() {
           <div className='grid md:grid-cols-3 gap-8'>
             {/* Value 1 */}
             <div className='bg-white rounded-lg shadow-sm p-8 text-center'>
-              <div className='w-16 h-16 bg-blue-100 rounded-full mx-auto mb-6 flex items-center justify-center'>
+              <div className='w-16 h-16 bg-pink-100 rounded-full mx-auto mb-6 flex items-center justify-center'>
                 <svg
-                  className='w-8 h-8 text-blue-600'
+                  className='w-8 h-8 text-pink-600'
                   fill='none'
                   stroke='currentColor'
                   viewBox='0 0 24 24'
@@ -137,25 +138,52 @@ export default function AboutPage() {
                     strokeLinecap='round'
                     strokeLinejoin='round'
                     strokeWidth={2}
-                    d='M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253'
+                    d='M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z'
                   />
                 </svg>
               </div>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>
-                Education First
+                Personal Touch
               </h3>
               <p className='text-gray-600'>
-                We believe in the power of knowledge sharing and continuous
-                learning. Every article we publish aims to educate and empower
-                our readers.
+                Every wedding is unique, and we treat it as such. We take the
+                time to understand your vision, style, and preferences to create
+                a truly personalized experience.
               </p>
             </div>
 
             {/* Value 2 */}
             <div className='bg-white rounded-lg shadow-sm p-8 text-center'>
-              <div className='w-16 h-16 bg-green-100 rounded-full mx-auto mb-6 flex items-center justify-center'>
+              <div className='w-16 h-16 bg-pink-100 rounded-full mx-auto mb-6 flex items-center justify-center'>
                 <svg
-                  className='w-8 h-8 text-green-600'
+                  className='w-8 h-8 text-pink-600'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M5 13l4 4L19 7'
+                  />
+                </svg>
+              </div>
+              <h3 className='text-xl font-bold text-gray-900 mb-4'>
+                Attention to Detail
+              </h3>
+              <p className='text-gray-600'>
+                We believe that the smallest details make the biggest impact.
+                From the perfect vendor match to seamless logistics, we ensure
+                every element is thoughtfully considered.
+              </p>
+            </div>
+
+            {/* Value 3 */}
+            <div className='bg-white rounded-lg shadow-sm p-8 text-center'>
+              <div className='w-16 h-16 bg-pink-100 rounded-full mx-auto mb-6 flex items-center justify-center'>
+                <svg
+                  className='w-8 h-8 text-pink-600'
                   fill='none'
                   stroke='currentColor'
                   viewBox='0 0 24 24'
@@ -169,39 +197,12 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>
-                Community Driven
+                Collaborative Approach
               </h3>
               <p className='text-gray-600'>
-                We foster a supportive community where developers can learn,
-                share, and grow together. Your feedback and contributions make
-                us better.
-              </p>
-            </div>
-
-            {/* Value 3 */}
-            <div className='bg-white rounded-lg shadow-sm p-8 text-center'>
-              <div className='w-16 h-16 bg-purple-100 rounded-full mx-auto mb-6 flex items-center justify-center'>
-                <svg
-                  className='w-8 h-8 text-purple-600'
-                  fill='none'
-                  stroke='currentColor'
-                  viewBox='0 0 24 24'
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth={2}
-                    d='M13 10V3L4 14h7v7l9-11h-7z'
-                  />
-                </svg>
-              </div>
-              <h3 className='text-xl font-bold text-gray-900 mb-4'>
-                Innovation
-              </h3>
-              <p className='text-gray-600'>
-                We stay at the forefront of technology, exploring new tools,
-                frameworks, and methodologies to bring you the latest insights
-                and best practices.
+                We work closely with you and your vendors to create a cohesive
+                team. Our collaborative approach ensures everyone is aligned and
+                working toward your perfect wedding day.
               </p>
             </div>
           </div>
@@ -212,24 +213,26 @@ export default function AboutPage() {
       <section className='py-16 bg-white'>
         <div className='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
           <h2 className='text-3xl font-bold text-gray-900 mb-8'>
-            Get in Touch
+            Ready to Start Planning?
           </h2>
           <p className='text-xl text-gray-600 mb-8'>
-            Have questions, suggestions, or want to collaborate? We'd love to
-            hear from you!
+            Let&apos;s create the wedding of your dreams together. We&apos;d
+            love to hear about your vision!
           </p>
           <div className='flex flex-col sm:flex-row gap-4 justify-center'>
             <a
-              href='mailto:hello@eteblog.com'
-              className='bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors'
+              href='mailto:hello@elizabethtreimanisevents.com'
+              className='bg-pink-500 text-white px-8 py-3 rounded-lg hover:bg-pink-600 transition-colors'
             >
               Send us an email
             </a>
             <a
-              href='https://twitter.com/eteblog'
+              href='https://www.elizabethtreimanisevents.com'
+              target='_blank'
+              rel='noopener noreferrer'
               className='bg-gray-900 text-white px-8 py-3 rounded-lg hover:bg-gray-800 transition-colors'
             >
-              Follow us on Twitter
+              Visit Our Website
             </a>
           </div>
         </div>
