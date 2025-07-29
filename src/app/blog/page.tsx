@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { BlogPost } from '@/types/blog';
 
+// This would typically come from a database or CMS
 const blogPosts: BlogPost[] = [
   {
     id: 'getting-started-with-nextjs',
@@ -52,101 +53,82 @@ const blogPosts: BlogPost[] = [
   },
 ];
 
-export default function Home() {
-  const featuredPost = blogPosts.find((post) => post.featured);
-  const regularPosts = blogPosts.filter((post) => !post.featured);
+const allTags = Array.from(new Set(blogPosts.flatMap((post) => post.tags)));
 
+export default function BlogPage() {
   return (
     <div className='min-h-screen bg-gray-50'>
       {/* Hero Section */}
       <section className='bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='text-center'>
-            <h1 className='text-4xl md:text-6xl font-bold mb-6'>ETE Blog</h1>
+            <h1 className='text-4xl md:text-6xl font-bold mb-6'>Blog</h1>
             <p className='text-xl md:text-2xl mb-8 text-blue-100'>
-              Exploring Technology, Engineering, and Everything in Between
+              Insights, tutorials, and thoughts on modern web development
             </p>
             <div className='flex flex-wrap justify-center gap-4'>
-              <span className='bg-white/20 px-4 py-2 rounded-full text-sm'>
-                Web Development
-              </span>
-              <span className='bg-white/20 px-4 py-2 rounded-full text-sm'>
-                React
-              </span>
-              <span className='bg-white/20 px-4 py-2 rounded-full text-sm'>
-                Next.js
-              </span>
-              <span className='bg-white/20 px-4 py-2 rounded-full text-sm'>
-                TypeScript
-              </span>
+              {allTags.slice(0, 6).map((tag) => (
+                <span
+                  key={tag}
+                  className='bg-white/20 px-4 py-2 rounded-full text-sm'
+                >
+                  {tag}
+                </span>
+              ))}
             </div>
           </div>
         </div>
       </section>
 
-      {/* Featured Post */}
-      {featuredPost && (
-        <section className='py-16'>
-          <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
-            <h2 className='text-2xl font-bold text-gray-900 mb-8'>
-              Featured Post
-            </h2>
-            <div className='bg-white rounded-lg shadow-lg overflow-hidden'>
-              <div className='md:flex'>
-                <div className='md:w-1/3 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center'>
-                  <div className='text-white text-center p-8'>
-                    <div className='text-6xl font-bold mb-4'>🚀</div>
-                    <div className='text-sm opacity-90'>Featured</div>
-                  </div>
-                </div>
-                <div className='md:w-2/3 p-8'>
-                  <div className='flex items-center mb-4'>
-                    <span className='bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded'>
-                      {featuredPost.tags[0]}
-                    </span>
-                    <span className='text-gray-500 text-sm ml-4'>
-                      {new Date(featuredPost.date).toLocaleDateString('en-US', {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric',
-                      })}
-                    </span>
-                  </div>
-                  <h3 className='text-2xl font-bold text-gray-900 mb-4'>
-                    {featuredPost.title}
-                  </h3>
-                  <p className='text-gray-600 mb-6 leading-relaxed'>
-                    {featuredPost.excerpt}
-                  </p>
-                  <div className='flex items-center justify-between'>
-                    <div className='flex items-center'>
-                      <div className='w-8 h-8 bg-gray-300 rounded-full mr-3'></div>
-                      <span className='text-sm text-gray-600'>
-                        {featuredPost.author}
-                      </span>
-                    </div>
-                    <Link
-                      href={`/blog/${featuredPost.id}`}
-                      className='bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors'
-                    >
-                      Read More
-                    </Link>
-                  </div>
-                </div>
+      {/* Filters and Search */}
+      <section className='py-8 bg-white border-b border-gray-200'>
+        <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
+          <div className='flex flex-col md:flex-row gap-4 items-center justify-between'>
+            <div className='flex flex-wrap gap-2'>
+              <span className='text-sm font-medium text-gray-700'>
+                Filter by:
+              </span>
+              {allTags.map((tag) => (
+                <button
+                  key={tag}
+                  className='px-3 py-1 text-sm bg-gray-100 text-gray-700 rounded-full hover:bg-blue-100 hover:text-blue-700 transition-colors'
+                >
+                  {tag}
+                </button>
+              ))}
+            </div>
+
+            <div className='relative'>
+              <input
+                type='text'
+                placeholder='Search posts...'
+                className='w-64 pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+              />
+              <div className='absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none'>
+                <svg
+                  className='h-5 w-5 text-gray-400'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'
+                  />
+                </svg>
               </div>
             </div>
           </div>
-        </section>
-      )}
+        </div>
+      </section>
 
-      {/* Recent Posts */}
+      {/* Blog Posts Grid */}
       <section className='py-16'>
         <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
-          <h2 className='text-2xl font-bold text-gray-900 mb-8'>
-            Recent Posts
-          </h2>
           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
-            {regularPosts.map((post) => (
+            {blogPosts.map((post) => (
               <article
                 key={post.id}
                 className='bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow'
@@ -156,7 +138,7 @@ export default function Home() {
                 </div>
                 <div className='p-6'>
                   <div className='flex items-center mb-3'>
-                    <span className='bg-gray-100 text-gray-800 text-xs font-medium px-2.5 py-0.5 rounded'>
+                    <span className='bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded'>
                       {post.tags[0]}
                     </span>
                     <span className='text-gray-500 text-sm ml-3'>
@@ -167,12 +149,20 @@ export default function Home() {
                       })}
                     </span>
                   </div>
+
                   <h3 className='text-xl font-bold text-gray-900 mb-3 line-clamp-2'>
-                    {post.title}
+                    <Link
+                      href={`/blog/${post.id}`}
+                      className='hover:text-blue-600'
+                    >
+                      {post.title}
+                    </Link>
                   </h3>
+
                   <p className='text-gray-600 mb-4 line-clamp-3'>
                     {post.excerpt}
                   </p>
+
                   <div className='flex items-center justify-between'>
                     <div className='flex items-center'>
                       <div className='w-6 h-6 bg-gray-300 rounded-full mr-2'></div>
@@ -187,6 +177,14 @@ export default function Home() {
                       Read More →
                     </Link>
                   </div>
+
+                  {post.featured && (
+                    <div className='mt-4'>
+                      <span className='bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5 py-0.5 rounded'>
+                        Featured
+                      </span>
+                    </div>
+                  )}
                 </div>
               </article>
             ))}

@@ -1,36 +1,192 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ETE Blog
+
+A modern, responsive blog built with Next.js 15, TypeScript, and Tailwind CSS. This blog features a beautiful design, dynamic routing, and comprehensive content management.
+
+## Features
+
+- 🎨 **Modern Design**: Clean, responsive design with beautiful gradients and typography
+- 📱 **Mobile-First**: Fully responsive design that works on all devices
+- ⚡ **Fast Performance**: Built with Next.js 15 for optimal performance
+- 🔍 **SEO Optimized**: Meta tags, structured data, and semantic HTML
+- 📝 **Rich Content**: Support for markdown content with syntax highlighting
+- 🏷️ **Tag System**: Categorize and filter posts by tags
+- 🔗 **Dynamic Routing**: Individual blog post pages with related posts
+- 📧 **Contact Form**: Interactive contact form with validation
+- 📧 **Newsletter Signup**: Email subscription functionality
+- 🎯 **Search Ready**: Search functionality for blog posts
+- 🌙 **Dark Mode Ready**: CSS variables for easy dark mode implementation
+
+## Pages
+
+- **Homepage**: Featured posts, recent posts, and newsletter signup
+- **Blog Listing**: All posts with filtering and search
+- **Individual Post**: Full blog post with related posts
+- **About**: Team information and mission statement
+- **Contact**: Contact form and contact information
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Fonts**: Geist Sans and Geist Mono
+- **Icons**: Heroicons (SVG)
+- **Deployment**: Vercel ready
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd ETE-Blog
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── about/
+│   │   └── page.tsx          # About page
+│   ├── blog/
+│   │   ├── page.tsx          # Blog listing page
+│   │   └── [slug]/
+│   │       └── page.tsx      # Individual blog post page
+│   ├── contact/
+│   │   └── page.tsx          # Contact page
+│   ├── globals.css           # Global styles
+│   ├── layout.tsx            # Root layout
+│   └── page.tsx              # Homepage
+├── components/
+│   ├── Header.tsx            # Navigation header
+│   └── Footer.tsx            # Site footer
+└── types/
+    └── blog.ts               # TypeScript interfaces
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Content Management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Adding New Blog Posts
 
-## Deploy on Vercel
+1. Add a new blog post object to the `blogPosts` array in the relevant files:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - `src/app/page.tsx` (for homepage)
+   - `src/app/blog/page.tsx` (for blog listing)
+   - `src/app/blog/[slug]/page.tsx` (for individual posts)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Follow the `BlogPost` interface structure:
+
+```typescript
+{
+  id: "unique-slug",
+  title: "Post Title",
+  excerpt: "Brief description",
+  content: "Full markdown content",
+  date: "YYYY-MM-DD",
+  author: "Author Name",
+  tags: ["tag1", "tag2"],
+  featured: boolean
+}
+```
+
+### Blog Post Content
+
+Blog posts support markdown-style content with the following features:
+
+- Headers (H1, H2, H3)
+- Paragraphs
+- Code blocks with syntax highlighting
+- Inline code
+- Lists (ordered and unordered)
+- Links
+
+## Customization
+
+### Colors and Theme
+
+The blog uses a blue-purple gradient theme. You can customize colors by modifying:
+
+- Tailwind CSS classes in components
+- CSS variables in `globals.css`
+- Gradient classes in hero sections
+
+### Typography
+
+The blog uses Geist fonts. You can change fonts by:
+
+1. Importing new fonts in `layout.tsx`
+2. Updating font variables in `globals.css`
+3. Modifying Tailwind font classes
+
+### Layout
+
+The layout is built with Tailwind CSS utilities. Key layout components:
+
+- `Header.tsx`: Navigation and search
+- `Footer.tsx`: Site footer with links
+- Individual page components for content
+
+## Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically
+
+### Other Platforms
+
+The blog can be deployed to any platform that supports Next.js:
+
+- Netlify
+- Railway
+- DigitalOcean App Platform
+- AWS Amplify
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Support
+
+For support, email hello@eteblog.com or create an issue in the repository.
+
+---
+
+Built with ❤️ using Next.js, TypeScript, and Tailwind CSS
