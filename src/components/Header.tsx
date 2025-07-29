@@ -11,7 +11,7 @@ export default function Header() {
               <span className='text-white font-bold text-sm'>E</span>
             </div>
             <span className='text-xl font-bold text-gray-900'>
-              Elizabeth's Wedding Blog
+              Elizabeth&apos;s Wedding Blog
             </span>
           </Link>
 

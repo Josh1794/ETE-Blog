@@ -123,9 +123,9 @@ export default function ContactPage() {
                   Get in touch
                 </h2>
                 <p className='text-gray-600 mb-8'>
-                  We'd love to hear from you! Whether you have a question about
+                  We&apos;d love to hear from you! Whether you have a question about
                   our content, want to collaborate, or just want to say hello,
-                  we're here to help.
+                  we&apos;re here to help.
                 </p>
               </div>
 
@@ -153,7 +153,7 @@ export default function ContactPage() {
                     </h3>
                     <p className='text-gray-600'>hello@eteblog.com</p>
                     <p className='text-sm text-gray-500'>
-                      We'll get back to you within 24 hours
+                      We&apos;ll get back to you within 24 hours
                     </p>
                   </div>
                 </div>
@@ -254,7 +254,7 @@ export default function ContactPage() {
               </h3>
               <p className='text-gray-600'>
                 We welcome guest contributions! Please send us an email with
-                your article idea and we'll get back to you with our submission
+                your article idea and we&apos;ll get back to you with our submission
                 guidelines.
               </p>
             </div>
@@ -264,8 +264,8 @@ export default function ContactPage() {
                 Can I request a specific topic to be covered?
               </h3>
               <p className='text-gray-600'>
-                Absolutely! We love hearing from our readers about topics they'd
-                like to see covered. Send us your suggestions and we'll do our
+                Absolutely! We love hearing from our readers about topics they&apos;d
+                like to see covered. Send us your suggestions and we&apos;ll do our
                 best to address them.
               </p>
             </div>

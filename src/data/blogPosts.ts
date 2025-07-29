@@ -9,7 +9,7 @@ export const blogPosts: BlogPost[] = [
     content: `
 # Essential Wedding Planning Timeline: 12 Months to Your Big Day
 
-Planning a wedding can feel overwhelming, but with the right timeline, you can stay organized and enjoy the process. Here's your complete 12-month wedding planning guide.
+Planning a wedding can feel overwhelming, but with the right timeline, you can stay organized and enjoy the process. Here&apos;s your complete 12-month wedding planning guide.
 
 ## 12 Months Before
 
@@ -40,11 +40,11 @@ Begin researching and touring venues:
 ## 10-11 Months Before
 
 ### Book Your Venue
-Once you've found the perfect venue:
+Once you&apos;ve found the perfect venue:
 - Secure your date with a deposit
 - Review and sign contracts carefully
 - Understand cancellation policies
-- Confirm what's included in your package
+- Confirm what&apos;s included in your package
 
 ### Hire Key Vendors
 Book your most important vendors early:
@@ -66,7 +66,7 @@ Begin shopping for wedding attire:
 - Schedule appointments at bridal salons
 - Research styles and designers
 - Consider alterations timeline
-- Don't forget accessories and shoes
+- Don&apos;t forget accessories and shoes
 
 ## 6-7 Months Before
 
@@ -102,63 +102,54 @@ Work on your ceremony specifics:
 
 ## 2-3 Months Before
 
-### Send Wedding Invitations
-Mail your formal invitations:
-- Include RSVP cards and envelopes
-- Add registry information
-- Set RSVP deadline (typically 4-6 weeks before)
+### Finalize Details
+Complete your remaining planning:
+- Final dress fitting and alterations
+- Schedule hair and makeup trials
+- Plan rehearsal dinner
+- Create day-of timeline
 
-### Schedule Final Fittings
-Book your final dress and suit fittings:
-- Allow time for alterations
-- Plan accessories and jewelry
-- Coordinate with wedding party attire
+### Send Invitations
+Mail your formal invitations:
+- Include RSVP cards or online RSVP
+- Set RSVP deadline (typically 3-4 weeks before)
+- Track responses and follow up
 
 ## 1 Month Before
 
 ### Final Vendor Meetings
-Meet with all your vendors to finalize details:
-- Review timelines and schedules
+Meet with all vendors to confirm details:
+- Review timelines and expectations
 - Confirm arrival times and setup
 - Discuss backup plans for weather
+- Finalize payment schedules
 
-### Plan Your Rehearsal Dinner
-Organize your rehearsal dinner:
-- Choose venue and menu
-- Send invitations to wedding party and family
-- Plan speeches and toasts
+### Wedding Party Coordination
+Coordinate with your wedding party:
+- Schedule rehearsal
+- Distribute timeline and responsibilities
+- Plan bachelor/bachelorette parties
 
 ## 1 Week Before
 
 ### Final Preparations
 Complete last-minute tasks:
 - Pick up wedding attire
-- Confirm all vendor payments
+- Confirm all vendor details
 - Pack for honeymoon
-- Prepare wedding day emergency kit
+- Practice your vows
 
 ## Wedding Day
 
-### Enjoy Your Special Day
+### Enjoy Your Day
 Remember to:
-- Eat breakfast
-- Stay hydrated
-- Take deep breaths
-- Enjoy every moment
+1. **Breathe**: Take moments to soak it all in
+2. **Delegate**: Don&apos;t try to do everything yourself
+3. **Stay hydrated**: Drink plenty of water
+4. **Eat**: Don&apos;t forget to eat throughout the day
+5. **Have fun**: This is your celebration!
 
-## Tips for Success
-
-1. **Stay Organized**: Use a wedding planner or digital tools
-2. **Communicate**: Keep everyone informed of plans and changes
-3. **Be Flexible**: Things may not go exactly as planned
-4. **Delegate**: Don't try to do everything yourself
-5. **Take Breaks**: Wedding planning should be fun, not stressful
-
-## Conclusion
-
-Following this timeline will help you stay organized and reduce stress during your wedding planning journey. Remember, every couple's timeline may vary based on their specific needs and circumstances. The key is to start early and tackle tasks in manageable chunks.
-
-Your wedding day will be here before you know it, so enjoy the planning process and create memories that will last a lifetime!
+Following this timeline will help you stay organized and reduce stress during your wedding planning journey. Remember, every couple&apos;s timeline may vary based on their specific needs and circumstances. The key is to start early and tackle tasks in manageable chunks.
     `,
     date: '2024-01-15',
     author: 'Elizabeth',
@@ -173,153 +164,116 @@ Your wedding day will be here before you know it, so enjoy the planning process 
     content: `
 # How to Choose the Perfect Wedding Venue: A Complete Guide
 
-Choosing your wedding venue is one of the most significant decisions you'll make during the planning process. The venue sets the tone for your entire celebration and affects many other decisions. Here's everything you need to know to find your perfect venue.
+Choosing your wedding venue is one of the most significant decisions you&apos;ll make during the planning process. The venue sets the tone for your entire celebration and affects many other decisions. Here&apos;s everything you need to know to find your perfect venue.
 
-## Start with Your Vision
+## Start With Your Vision
 
-### Define Your Style
-Before you start touring venues, clarify your wedding vision:
-- What's your overall aesthetic?
-- Do you want indoor, outdoor, or both?
-- What's your preferred season and time of day?
-- How formal or casual do you want the event to be?
+Before you start touring venues, clarify your vision:
 
-### Consider Your Guest Count
-Your venue must accommodate your guest list:
-- Create a preliminary guest list
-- Add 10-15% for potential additions
-- Consider both ceremony and reception capacity
-- Think about seating arrangements and flow
+### Style and Aesthetic
+- What&apos;s your overall aesthetic?
+- Do you prefer indoor or outdoor settings?
+- What&apos;s your preferred season and time of day?
 
-## Venue Types to Consider
+### Guest Count and Budget
+- How many guests do you plan to invite?
+- What&apos;s your venue budget?
+- Do you need ceremony and reception in the same place?
+
+## Types of Venues
 
 ### Traditional Venues
 - Hotels and resorts
 - Country clubs
 - Banquet halls
-- Historic buildings
-- Museums and galleries
+- Restaurants
 
 ### Unique Venues
-- Barns and farms
-- Wineries and breweries
-- Parks and gardens
-- Rooftops and lofts
-- Restaurants and private dining rooms
+- Museums and galleries
+- Historic buildings
+- Farms and barns
+- Rooftops and gardens
+- Industrial spaces
 
-### Destination Venues
-- Beach resorts
-- Mountain lodges
-- Vineyards
-- Historic inns
+### Outdoor Venues
+- Beaches and parks
+- Vineyards and wineries
+- Botanical gardens
 - Private estates
 
-## Key Factors to Evaluate
+## Key Considerations
 
 ### Location and Accessibility
 - Is it convenient for most guests?
-- What's the travel time from ceremony to reception?
-- Is there adequate parking or transportation?
-- Are there nearby accommodations for out-of-town guests?
+- What&apos;s the travel time from ceremony to reception?
+- Is there adequate parking?
+- Are there nearby accommodations?
 
 ### Capacity and Layout
 - Can it comfortably accommodate your guest count?
-- Is there space for both ceremony and reception?
-- Are there separate areas for cocktail hour?
-- Does the layout flow well for your planned activities?
+- Is there space for ceremony, cocktail hour, and reception?
+- Are there separate areas for different activities?
 
 ### Services and Amenities
-- What's included in the venue fee?
-- Do they provide tables, chairs, linens, and glassware?
-- Is there an in-house caterer or preferred vendor list?
-- What about setup and cleanup services?
+- What&apos;s included in the venue fee?
+- Do they provide tables, chairs, and linens?
+- Is there a kitchen for catering?
+- What&apos;s the backup plan for outdoor venues?
 
-### Weather Considerations
-- What's the backup plan for outdoor venues?
-- Is there adequate heating/cooling for indoor spaces?
-- How does the venue handle inclement weather?
-
-## Questions to Ask During Tours
+## Questions to Ask
 
 ### Logistics
-- What's the rental fee and what does it include?
+- What&apos;s the rental fee and what does it include?
 - What are the payment terms and cancellation policy?
-- How many hours are included in the rental?
+- What&apos;s the parking situation?
 - Are there noise restrictions or curfews?
-- What's the parking situation?
 
-### Vendors and Services
-- Do you have an exclusive caterer or can we bring our own?
-- Are there restrictions on alcohol service?
-- Can we bring in our own vendors?
-- Do you provide a wedding coordinator or day-of manager?
+### Services
+- Do they have preferred vendors or can you bring your own?
+- Is there an on-site coordinator?
+- What&apos;s the breakdown and cleanup process?
+- Are there restrictions on decor or music?
 
-### Setup and Timing
-- When can vendors arrive for setup?
-- Is there a rehearsal time included?
-- What's the breakdown and cleanup process?
-- Are there restrictions on decorations or candles?
-
-## Budget Considerations
-
-### Hidden Costs
-Be aware of potential additional fees:
-- Service charges and gratuities
-- Cake-cutting fees
-- Corkage fees for alcohol
-- Overtime charges
-- Security deposits
-- Insurance requirements
-
-### Package Deals
-Many venues offer packages that can save money:
-- All-inclusive packages
-- Day-of coordination included
-- Preferred vendor discounts
-- Multi-event discounts (rehearsal dinner, etc.)
+### Practical Details
+- What&apos;s the bathroom situation?
+- Is there adequate lighting and power?
+- What&apos;s the weather backup plan?
+- Are there dressing rooms for the couple and wedding party?
 
 ## Making Your Decision
 
-### Compare Your Options
-Create a comparison chart with:
-- Total cost breakdown
-- What's included vs. what you need to provide
-- Pros and cons of each venue
-- Availability and flexibility
+### Compare Options
+Create a spreadsheet to compare:
+- Total cost and what&apos;s included
+- Available dates and times
+- Guest capacity and layout
+- What&apos;s included vs. what you need to provide
+- Restrictions and policies
 
 ### Trust Your Instincts
-- How do you feel when you walk in?
+- How does the venue feel when you visit?
 - Can you picture your wedding there?
 - Does it match your vision and style?
 - Are the staff helpful and responsive?
 
-## Booking Your Venue
-
-### Read the Contract Carefully
-- Understand all terms and conditions
-- Know your cancellation policy
-- Confirm all included services
-- Understand your payment schedule
-
-### Secure Your Date
-- Be prepared to pay a deposit
-- Get everything in writing
-- Confirm your booking in writing
-- Keep copies of all contracts and correspondence
-
 ## Tips for Success
 
-1. **Start Early**: Popular venues book up quickly
-2. **Be Flexible**: Consider off-peak dates for better availability
-3. **Visit Multiple Times**: See the venue at different times of day
-4. **Ask for References**: Talk to recent couples who used the venue
-5. **Document Everything**: Take photos and notes during tours
+### Start Early
+Popular venues book up quickly, especially during peak season. Start your search 12-18 months before your wedding date.
 
-## Conclusion
+### Be Flexible
+Consider off-peak dates and times for better availability and pricing.
 
-Choosing your wedding venue is a big decision, but with careful research and consideration, you'll find the perfect place for your special day. Remember to trust your instincts and choose a venue that feels right for you as a couple.
+### Read Reviews
+Check online reviews and ask for references from recent couples.
 
-The perfect venue is out there waiting for you - happy hunting!
+### Visit Multiple Times
+If possible, visit your top choices at different times of day to see how the lighting and atmosphere change.
+
+### Get Everything in Writing
+Make sure all details, pricing, and policies are clearly documented in your contract.
+
+Choosing your wedding venue is a big decision, but with careful research and consideration, you&apos;ll find the perfect place for your special day. Remember to trust your instincts and choose a venue that feels right for you as a couple.
     `,
     date: '2024-01-10',
     author: 'Elizabeth',
@@ -334,44 +288,44 @@ The perfect venue is out there waiting for you - happy hunting!
     content: `
 # Wedding Photography: How to Choose Your Perfect Photographer
 
-Your wedding photos are one of the few tangible memories you'll have from your special day. Choosing the right photographer is crucial to ensuring you'll love your photos for years to come. Here's how to find your perfect wedding photographer.
+Your wedding photos are one of the few tangible memories you&apos;ll have from your special day. Choosing the right photographer is crucial to ensuring you&apos;ll love your photos for years to come. Here&apos;s how to find your perfect wedding photographer.
 
 ## Understanding Photography Styles
 
-### Traditional Photography
+### Traditional
 - Posed, formal portraits
-- Classic, timeless images
-- Structured and organized approach
-- Focus on family and wedding party photos
+- Classic compositions
+- Timeless, elegant style
+- Focus on key moments
 
-### Photojournalistic/Documentary
-- Candid, natural moments
-- Storytelling approach
+### Photojournalistic
+- Candid, documentary approach
+- Captures natural moments
 - Minimal posing and direction
-- Captures real emotions and reactions
+- Storytelling through images
 
-### Fine Art Photography
-- Artistic and creative compositions
-- Attention to detail and aesthetics
-- Often includes artistic editing
-- Focus on beautiful, artistic images
+### Contemporary
+- Modern, artistic style
+- Creative compositions
+- Mix of posed and candid
+- Current trends and techniques
 
-### Contemporary/Modern
-- Current trends and styles
-- Creative angles and compositions
-- Modern editing techniques
-- Blend of traditional and candid moments
+### Fine Art
+- Artistic, editorial approach
+- Creative lighting and composition
+- Magazine-quality images
+- Focus on beauty and aesthetics
 
-## What to Look for in a Photographer
+## What to Look For
 
-### Style and Aesthetic
-- Does their style match your vision?
-- Do you love their portfolio?
-- Is their editing style consistent?
-- Can they adapt to different lighting conditions?
+### Portfolio Quality
+- Consistent style and quality
+- Images that resonate with you
+- Variety of lighting conditions
+- Both posed and candid shots
 
-### Experience and Expertise
-- How many weddings have they photographed?
+### Experience
+- How many weddings have they shot?
 - Do they have experience with your venue type?
 - Are they familiar with your wedding style?
 - Do they have backup equipment and plans?
@@ -379,125 +333,78 @@ Your wedding photos are one of the few tangible memories you'll have from your s
 ### Personality and Communication
 - Do you feel comfortable with them?
 - Are they responsive to emails and calls?
-- Do they listen to your vision and preferences?
-- Will they be pleasant to work with on your wedding day?
+- Do they understand your vision?
+- Are they organized and professional?
 
-## Questions to Ask Potential Photographers
+## Questions to Ask
 
-### About Their Services
-- What packages do you offer?
-- How many hours of coverage are included?
+### About Their Work
+- What&apos;s included in your packages?
+- How many hours of coverage?
 - Do you provide engagement sessions?
-- What's included in your packages?
+- What&apos;s your backup plan if you&apos;re sick?
 
-### About Their Process
-- How do you approach wedding photography?
+### About the Process
+- How do you handle different lighting conditions?
 - Do you scout locations beforehand?
-- How do you handle different lighting situations?
-- What's your backup plan if you're sick?
+- What&apos;s included in your pricing?
+- What&apos;s your cancellation policy?
 
 ### About Deliverables
 - How many photos will I receive?
-- When will I get my photos?
-- Do you provide edited and unedited images?
-- What format will the images be in?
-
-### About Pricing
-- What's included in your pricing?
-- Are there additional fees for travel or overtime?
-- Do you offer payment plans?
-- What's your cancellation policy?
-
-## Reviewing Portfolios
-
-### Look for Consistency
-- Is the quality consistent across all images?
-- Do you see a variety of lighting conditions?
-- Are the editing styles consistent?
-- Do you see both posed and candid shots?
-
-### Check for Diversity
-- Do they have experience with different venues?
-- Can they handle different wedding sizes?
-- Do they work well with different cultures and traditions?
-- Are they comfortable with various wedding styles?
-
-### Assess Technical Quality
-- Are the images sharp and well-focused?
-- Is the lighting handled well?
-- Are the compositions interesting?
-- Do the colors look natural and appealing?
+- What&apos;s the turnaround time?
+- Do you provide digital files?
+- Can I print my own photos?
 
 ## Making Your Decision
 
-### Compare Your Options
-Create a comparison chart with:
-- Pricing and packages
-- Style and approach
-- Experience and expertise
-- Personality and communication
-- Availability for your date
+### Review Full Galleries
+Ask to see complete wedding galleries, not just highlights. This will give you a better sense of their consistency and style.
 
 ### Check References
-- Ask for recent client references
-- Read online reviews
-- Look at full wedding galleries
-- Ask about their experience working with the photographer
+Ask for references from recent couples and follow up with them.
 
-## Booking Your Photographer
+### Compare Packages
+Look at what&apos;s included in different packages and pricing tiers.
 
-### Understand the Contract
-- Review all terms and conditions
-- Understand what's included
-- Know your payment schedule
-- Understand cancellation policies
+### Trust Your Instincts
+Choose someone whose work you love and who you feel comfortable with.
+
+## Tips for Great Photos
+
+### Communicate Your Vision
+- Share inspiration photos
+- Discuss your must-have shots
+- Explain your wedding style and priorities
+- Be clear about any concerns
 
 ### Plan Your Timeline
-- Schedule engagement session
-- Plan wedding day timeline
-- Discuss must-have shots
-- Coordinate with other vendors
+- Allow enough time for photos
+- Consider lighting for outdoor shots
+- Plan for family portraits
+- Don&apos;t forget about getting ready photos
 
-## Tips for Great Wedding Photos
+### Prepare Your Wedding Party
+- Let them know what to expect
+- Assign someone to gather family for portraits
+- Plan for weather contingencies
+- Understand what&apos;s included
 
-### Before the Wedding
-- Have an engagement session
-- Create a shot list of must-have photos
-- Plan your timeline with photography in mind
-- Choose locations for portraits
+## On Your Wedding Day
 
-### On Your Wedding Day
-- Trust your photographer
-- Stay relaxed and natural
-- Don't worry about posing perfectly
-- Enjoy the moment
+### Trust Your Photographer
+- They&apos;re the expert, so follow their guidance
+- Don&apos;t worry about posing perfectly
+- Focus on enjoying your day
+- Let them capture natural moments
 
-### After the Wedding
-- Be patient while waiting for photos
-- Provide feedback if needed
-- Consider ordering prints and albums
-- Share your favorites with family and friends
+### Be Present
+- Take time to soak in the moments
+- Don&apos;t stress about getting every shot
+- Remember why you&apos;re there
+- Enjoy your celebration
 
-## Budget Considerations
-
-### What Affects Pricing
-- Experience and reputation
-- Coverage hours
-- Number of photographers
-- Location and travel
-- Additional services (albums, prints, etc.)
-
-### Ways to Save
-- Book during off-peak season
-- Choose fewer coverage hours
-- Skip engagement sessions
-- Opt for digital-only packages
-
-## Conclusion
-
-Your wedding photographer will capture one of the most important days of your life. Take the time to find someone whose style you love and who you feel comfortable with. The investment in great photography will pay off when you have beautiful memories to cherish for years to come.
-
-Remember, the best photographer is one who can capture not just how your wedding looked, but how it felt.
+Your wedding photographer will capture memories that last a lifetime. Take the time to find someone whose style and personality are the perfect fit for your special day.
     `,
     date: '2024-01-05',
     author: 'Elizabeth',
@@ -512,229 +419,165 @@ Remember, the best photographer is one who can capture not just how your wedding
     content: `
 # Wedding Decor Inspiration: Creating Your Perfect Atmosphere
 
-Your wedding decor sets the mood and creates the atmosphere for your entire celebration. From elegant and sophisticated to rustic and romantic, your decor choices will transform your venue and reflect your personal style. Here's how to create the perfect decor for your special day.
+Your wedding decor sets the tone for your entire celebration and creates the atmosphere that will make your day memorable. From flowers to lighting to personal touches, here&apos;s how to create the perfect decor for your special day.
 
-## Finding Your Decor Style
+## Start With Your Vision
 
-### Elegant and Classic
-- Sophisticated color palettes (blush, gold, navy)
-- Luxurious fabrics (silk, velvet, lace)
-- Crystal and metallic accents
-- Formal floral arrangements
-- Candlelight and ambient lighting
+### Define Your Style
+- What&apos;s your overall aesthetic?
+- What colors speak to you?
+- What mood do you want to create?
+- What&apos;s your venue&apos;s existing style?
 
-### Rustic and Romantic
-- Natural materials (wood, burlap, mason jars)
-- Soft, earthy colors (sage, cream, dusty rose)
-- Wildflower arrangements
-- String lights and lanterns
-- Vintage and antique elements
+### Consider Your Venue
+- Work with your venue&apos;s architecture
+- Consider your venue&apos;s existing colors
+- Think about the space and layout
+- Don&apos;t be afraid to add accent colors
 
-### Modern and Minimalist
-- Clean lines and geometric shapes
-- Monochromatic color schemes
-- Minimal floral arrangements
-- Contemporary lighting
-- Focus on negative space
+## Color Palettes
 
-### Bohemian and Free-Spirited
-- Eclectic mix of patterns and textures
-- Rich, vibrant colors
-- Lush, organic floral arrangements
-- Macrame and woven elements
-- Natural and organic materials
+### Classic Combinations
+- Navy and white
+- Blush and gold
+- Emerald and silver
+- Burgundy and cream
 
-## Essential Decor Elements
+### Modern Trends
+- Sage green and terracotta
+- Dusty blue and rose gold
+- Lavender and champagne
+- Black and white with pops of color
+
+### Seasonal Inspiration
+- Spring: Soft pastels and fresh greens
+- Summer: Bright, vibrant colors
+- Fall: Rich, warm tones
+- Winter: Deep, elegant colors
+
+## Floral Design
+
+### Bouquets
+- Consider your dress style
+- Think about your color palette
+- Choose flowers that are in season
+- Don&apos;t forget about texture and greenery
 
 ### Ceremony Decor
-- Altar or arch decorations
-- Aisle markers and runners
-- Seating arrangements
-- Welcome signs and programs
-- Music and sound equipment
+- Altar arrangements
+- Aisle markers
+- Pew decorations
+- Welcome signs
 
-### Reception Decor
-- Table centerpieces
-- Linens and tableware
-- Lighting and ambiance
-- Dance floor decorations
-- Photo booth and guest book area
+### Reception Centerpieces
+- Mix of heights and styles
+- Consider table shapes and sizes
+- Think about guest interaction
+- Include candles for ambiance
 
-### Personal Touches
-- Family photos and heirlooms
-- Custom signage and monograms
-- Guest favors and place cards
-- Memory tables and memorial displays
-- Cultural and religious elements
-
-## Color Palette Selection
-
-### Popular Wedding Color Combinations
-- Blush and Gold: Romantic and elegant
-- Navy and White: Classic and timeless
-- Sage and Cream: Natural and peaceful
-- Burgundy and Blush: Rich and sophisticated
-- Lavender and Silver: Dreamy and ethereal
-
-### Tips for Choosing Colors
-- Consider your venue's existing colors
-- Think about the season and time of year
-- Choose colors that complement your skin tone
-- Consider how colors will photograph
-- Don't be afraid to add accent colors
-
-## Floral Decor
-
-### Ceremony Flowers
-- Bridal bouquet
-- Bridesmaid bouquets
-- Boutonnieres and corsages
-- Altar or arch arrangements
-- Aisle decorations
-
-### Reception Flowers
-- Table centerpieces
-- Head table arrangements
-- Cake flowers
-- Restroom and bar arrangements
-- Exit toss flowers
-
-### Flower Alternatives
-- Greenery and foliage
-- Paper flowers
-- Silk or artificial flowers
-- Dried flowers and grasses
-- Succulents and air plants
-
-## Lighting and Atmosphere
+## Lighting
 
 ### Ambient Lighting
 - String lights and fairy lights
-- Candles and lanterns
-- Uplighting and spotlights
-- Chandeliers and pendant lights
-- Fire pits and outdoor lighting
+- Lanterns and candles
+- Uplighting for walls
+- Chandeliers and sconces
 
-### Creating Mood
-- Warm vs. cool lighting
-- Dimming capabilities
+### Special Effects
+- Monogram projections
 - Color-changing lights
-- Natural light considerations
-- Weather backup plans
+- Sparklers and fireworks
+- LED dance floor
+
+## Personal Touches
+
+### Welcome Signs
+- Personalized welcome messages
+- Directional signage
+- Photo displays
+- Guest book alternatives
+
+### Table Decor
+- Custom place cards
+- Menu cards
+- Table numbers
+- Favor displays
+
+### Ceremony Details
+- Programs and booklets
+- Ring bearer pillows
+- Unity ceremony elements
+- Memorial displays
 
 ## DIY vs. Professional
 
-### DIY Decor Projects
-- Welcome signs and directional signage
+### DIY Projects
+- Welcome signs and signage
 - Table numbers and place cards
-- Photo booth props
-- Guest book alternatives
+- Photo displays
 - Favor packaging
 
-### When to Hire Professionals
-- Floral arrangements
-- Lighting installation
-- Large-scale installations
-- Complex setups
-- Day-of coordination
+### Professional Services
+- Floral design and arrangements
+- Lighting design and installation
+- Linens and tableware
+- Specialty decor items
 
-## Budget-Friendly Decor Tips
+## Budget Considerations
 
-### Repurpose and Reuse
-- Use ceremony flowers for reception
-- Repurpose bridesmaid bouquets as centerpieces
-- Rent items instead of buying
-- Borrow from friends and family
-- Shop sales and clearance
+### Prioritize
+- What&apos;s most important to you?
+- Where can you save money?
+- What can you DIY?
+- What&apos;s worth the investment?
 
-### Focus on Impact
-- Invest in key focal points
-- Use lighting to create atmosphere
-- Choose quality over quantity
-- Prioritize guest experience
-- Don't overlook small details
+### Cost-Saving Tips
+- Use seasonal flowers
+- Repurpose ceremony decor
+- Rent instead of buy
+- Focus on high-impact areas
 
-## Seasonal Considerations
+## Timeline
 
-### Spring Weddings
-- Pastel colors and fresh flowers
-- Light fabrics and airy arrangements
-- Garden and outdoor themes
-- Rain backup plans
+### 6-8 Months Before
+- Choose your color palette
+- Start collecting inspiration
+- Book your florist
+- Plan your lighting
 
-### Summer Weddings
-- Bright colors and tropical elements
-- Outdoor and beach themes
-- Cooling and shade considerations
-- Bug and heat management
+### 3-4 Months Before
+- Finalize decor details
+- Order specialty items
+- Plan DIY projects
+- Confirm vendor details
 
-### Fall Weddings
-- Rich, warm colors
-- Seasonal flowers and foliage
-- Cozy and intimate atmosphere
-- Weather-appropriate attire
+### 1 Month Before
+- Finalize all decor plans
+- Create setup timeline
+- Pack decor items
+- Confirm delivery schedules
 
-### Winter Weddings
-- Sparkle and metallics
-- Evergreens and seasonal flowers
-- Warm lighting and cozy atmosphere
-- Indoor venue considerations
+## Tips for Success
 
-## Personalization Ideas
+### Be Consistent
+- Stick to your color palette
+- Maintain your style throughout
+- Don&apos;t overlook small details
+- Create a cohesive look
 
-### Cultural Elements
-- Traditional symbols and motifs
-- Cultural colors and patterns
-- Traditional music and dance
-- Family recipes and foods
-
-### Hobby and Interest Themes
-- Travel-inspired decor
-- Literary or movie themes
-- Sports or outdoor themes
-- Artistic and creative elements
-
-### Family Traditions
-- Family heirlooms and antiques
-- Traditional recipes and foods
-- Family photos and stories
-- Generational elements
-
-## Working with Vendors
-
-### Florist Collaboration
-- Share your vision and inspiration
-- Be honest about your budget
-- Trust their expertise
-- Ask about seasonal availability
-- Plan for setup and breakdown
-
-### Rental Company Coordination
-- Book early for popular items
-- Understand delivery and pickup
-- Plan for setup and breakdown
-- Have backup plans
-- Confirm all details in writing
-
-## Final Tips
-
-### Timeline Planning
-- Book vendors 6-12 months in advance
-- Schedule setup and breakdown times
+### Consider Your Guests
+- Ensure comfort and accessibility
+- Think about sight lines
 - Plan for weather contingencies
-- Coordinate with venue restrictions
+- Don&apos;t block important areas
 
-### Day-of Coordination
-- Create detailed setup instructions
-- Assign responsibilities to trusted helpers
-- Have emergency contact information
-- Plan for unexpected changes
+### Trust Your Instincts
+- Choose what you love
+- Don&apos;t follow trends blindly
+- Stay true to your style
+- Remember it&apos;s your day
 
-## Conclusion
-
-Your wedding decor is an opportunity to express your personality and create the perfect atmosphere for your celebration. Whether you choose elegant sophistication or rustic charm, the key is to create a cohesive look that reflects your style and makes your guests feel welcome and comfortable.
-
-Remember, the most beautiful decor is one that enhances your love story and creates lasting memories for you and your guests.
+Your wedding decor should reflect your personality and create the perfect atmosphere for your celebration. Take the time to plan carefully and choose elements that will make your day truly special.
     `,
     date: '2024-01-01',
     author: 'Elizabeth',

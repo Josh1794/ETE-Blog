@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elizabeth's Wedding Blog",
+  title: 'Elizabeth&apos;s Wedding Blog',
   description:
     'A beautiful wedding blog sharing planning tips, vendor recommendations, and inspiration for your special day. From venues to vendors, decor to dresses.',
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Elizabeth' }],
   openGraph: {
-    title: "Elizabeth's Wedding Blog",
+    title: 'Elizabeth&apos;s Wedding Blog',
     description:
       'Wedding planning tips, inspiration, and vendor recommendations',
     type: 'website',
